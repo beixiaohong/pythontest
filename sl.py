@@ -130,7 +130,7 @@ results.append(result_text)
 # 将所有结果写入一个文件
 file_name = f"game_results_{datetime.datetime.now()}.txt"
 #文件名如果为时间
-file_path = os.path.join('/Users/xiaobai/Documents/python/', file_name)
+file_path = os.path.join('/Users/xiaobai/Documents/pythontest/', file_name)
 
 try:
     with open(file_path, 'w', encoding='utf-8') as file:
